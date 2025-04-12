@@ -1,0 +1,34 @@
+{
+	"manifest_version": 3,
+	"name": "Roblox Alt Loader",
+	"version": "1.0.0",
+	"description": "Easily load Roblox alt accounts",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://www.roblox.com/*", "https://web.roblox.com/*"],
+			"js": ["content.js"],
+			"run_at": "document_start"
+		}
+	],
+	"icons": {
+		"128": "icon.png"
+	},
+	"action": {
+		"default_title": "Load Roblox alt account",
+		"default_icon": {
+			"32": "icon.png"
+		}
+	},
+	"permissions": [
+		"tabs",
+		"scripting",
+		"activeTab",
+		"notifications"
+	],
+	"host_permissions": [
+		"https://*.roblox.com/*"
+	]
+}
