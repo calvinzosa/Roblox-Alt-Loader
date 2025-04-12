@@ -24,3 +24,8 @@ This is a Chrome Extension that allows you to easily run start running another a
 4. Click the extension icon in the top-right corner, however if any issues occur, the extension should display a notification telling you what happened and how to resolve the issue.
 5. Log into your alt account (you can use saved passwords). No, I am not going to steal your Roblox account, this is the official Roblox login page, just check the URL bar at the top.
 6. The extension will automatically go to your profile, click the `Join` button, then closes the window after 5 seconds, and you should see a new Roblox instance starting to load.
+
+## (c) Updating
+
+1. Open [chrome://extensions/](chrome://extensions/) and click `Remove` on the extension
+2. Continue to `(a) Installing`
